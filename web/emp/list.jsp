@@ -14,7 +14,7 @@
 <body>
     员工信息<br/>
     <s:iterator value="empList" var="emp" status="st">
-        <s:property value="#st.getIndex()+1"></s:property> <s:property value="#emp.empno"></s:property> <s:property value="#emp.empno"></s:property><br/>
+        <s:property value="#st.getIndex()+1"></s:property> <s:property value="#emp.empno"></s:property> <s:property value="#emp.ename"></s:property><br/>
     </s:iterator>
     <s:debug></s:debug>
 </body>

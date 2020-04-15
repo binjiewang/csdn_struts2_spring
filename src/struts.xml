@@ -5,7 +5,7 @@
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
-    <!--默认值也是spring,struts的对向有spring创建-->
+    <!--默认值也是spring,struts的对象由spring创建-->
     <constant name="struts.objectFactory" value="spring"/>
 
     <package name="emp" namespace="/emp" extends="struts-default">
